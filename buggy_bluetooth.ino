@@ -12,7 +12,6 @@ BluetoothSerial BT_Serial;
 
 int bt_data; // variable to receive data from the serial port
 int Speed = 130;
-int mode = 0;
 
 void setup() { // put your setup code here, to run once
   pinMode(enA, OUTPUT); // declare as output for L298 Pin enA
