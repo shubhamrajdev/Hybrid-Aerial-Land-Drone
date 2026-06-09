@@ -67,12 +67,12 @@ void loop() {
     else if (bt_data == 6) {
       turnLeft(); 
       delay(400); 
-      bt_data = 5;
+      Stop();
     }
     else if (bt_data == 7) {
       turnRight(); 
       delay(400); 
-      bt_data = 5;
+      Stop();
     }
   }
 }
